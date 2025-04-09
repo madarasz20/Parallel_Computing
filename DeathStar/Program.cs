@@ -1,15 +1,15 @@
-﻿namespace DeathStar
+﻿using System.Xml.Linq;
+
+namespace DeathStar
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            XDocument doc = XDocument.Load("deathstarXML.xml");
+
+            
         }
 
-        class Rohamosztagos
-        {
-
-        }
     }
 }
