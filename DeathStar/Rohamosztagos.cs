@@ -10,15 +10,29 @@ namespace DeathStar
     {
         static int idnumber = 999;  
         string id;
-        public readonly Munkas Felugyelve;
-        public string Id { get { return id; }set {id = "FN" + idnumber++; } }
+        public Munkas Felugyelve { get; private set; }
 
         public Rohamosztagos()
         {
-                
+            id = "FN" + idnumber++;
         }
 
+        public void Felugyel(Munkas m)
+        {
+            Felugyelve = m;
+            m.Figyelik = true;
+        }
 
+        public void FelugyeletVege()
+        {
+            Felugyelve.Figyelik = false;
+            Felugyelve = null;
+        }
+
+        public override string ToString() 
+        {
+            return $"{this.id} felügyeli: {(this.Felugyelve != null ? this.Felugyelve.Nev : "Nem felügyel")}";
+        }
 
     }
 }
