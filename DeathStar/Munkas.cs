@@ -9,7 +9,7 @@ namespace DeathStar
     internal class Munkas
     {
         string nev;
-        int allapot;
+        int allapot;        //100 ha kész van
         int tempo { get; set; }
         public bool Elkeszult { get { return (allapot == 100 ? true : false); } }
         public string Nev { get { return nev; } set { nev = value; } }
@@ -26,6 +26,8 @@ namespace DeathStar
 
         public void Lep()
         {
+            //dolgozik, ezért nő az állapot
+            // ha figyelik akkor gyorsabban
             allapot++;
             if (!Figyelik)
             {

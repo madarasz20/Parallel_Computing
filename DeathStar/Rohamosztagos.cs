@@ -8,7 +8,7 @@ namespace DeathStar
 {
     internal class Rohamosztagos
     {
-        static int idnumber = 999;  
+        static int idnumber = 1000;  
         string id;
         public Munkas Felugyelve { get; private set; }
 
@@ -24,9 +24,10 @@ namespace DeathStar
         }
 
         public void FelugyeletVege()
-        {
-            Felugyelve.Figyelik = false;
-            Felugyelve = null;
+        { 
+                Felugyelve.Figyelik = false; //here
+                Felugyelve = null;
+
         }
 
         public override string ToString() 
