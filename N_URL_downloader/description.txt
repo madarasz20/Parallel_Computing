@@ -1,0 +1,2 @@
+﻿Adott n darab URL, amelyeken állományokat találunk, ezeket együttesen akarjuk letölteni
+Párhuzamosan elindítani nem célszerű, felső korlát beállítása kell

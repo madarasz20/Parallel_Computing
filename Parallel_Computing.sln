@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiir_Lock", "Kiir_Lock\Kiir
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeathStar", "DeathStar\DeathStar.csproj", "{78890E57-D7A0-461B-BD4B-E22A509ECBB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_URL_downloader", "N_URL_downloader\N_URL_downloader.csproj", "{22DA31D2-D2A6-47A9-8D62-D70D52859A6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{78890E57-D7A0-461B-BD4B-E22A509ECBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78890E57-D7A0-461B-BD4B-E22A509ECBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78890E57-D7A0-461B-BD4B-E22A509ECBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22DA31D2-D2A6-47A9-8D62-D70D52859A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22DA31D2-D2A6-47A9-8D62-D70D52859A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22DA31D2-D2A6-47A9-8D62-D70D52859A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22DA31D2-D2A6-47A9-8D62-D70D52859A6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
