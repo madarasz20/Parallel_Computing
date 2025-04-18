@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N_URL_downloader", "N_URL_d
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DinindPhilosophers", "DinindPhilosophers\DinindPhilosophers.csproj", "{8895EF73-3BDA-46A8-BDA8-4D03A87F20C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliceAndBob", "AliceAndBob\AliceAndBob.csproj", "{4E184641-97C6-460C-90ED-6DF8104BA604}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AliceAndBob", "AliceAndBob\AliceAndBob.csproj", "{4E184641-97C6-460C-90ED-6DF8104BA604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamSimulation", "ExamSimulation\ExamSimulation.csproj", "{A44460FF-98FF-4DD8-B2C8-F83E687789C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{4E184641-97C6-460C-90ED-6DF8104BA604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E184641-97C6-460C-90ED-6DF8104BA604}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E184641-97C6-460C-90ED-6DF8104BA604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44460FF-98FF-4DD8-B2C8-F83E687789C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44460FF-98FF-4DD8-B2C8-F83E687789C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44460FF-98FF-4DD8-B2C8-F83E687789C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44460FF-98FF-4DD8-B2C8-F83E687789C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
